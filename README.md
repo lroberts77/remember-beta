@@ -5,3 +5,9 @@
 </div>
 
 ### Technologies: React, enzyme, jest, JavaScript, HTML, CSS, Mongoose
+
+## Index
+* [Project Direction](#Project)
+* [Installation](#Install)
+* [Usage](#Usage)
+* [Improvemets](#Improvements)
