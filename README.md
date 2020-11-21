@@ -15,3 +15,9 @@
 ## <a name="Project">Project Direction</a>
 
 ## <a name="Install">Installation</a>
+* To clone the repo
+```shell
+$ git clone git@github.com:lroberts77/remember-beta.git
+$ cd Tdd-react-practice
+$ npm install
+```
