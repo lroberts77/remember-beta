@@ -24,3 +24,9 @@ $ npm install
 ```
 
 ## <a name="Usage">Usage</a>
+* Cd into the client folder
+```shell
+$ npm start
+```
+
+If a tab doesn't open with the remember-beta app running, open a new tab and type in http://localhost:3000 in the url bar and press enter.
