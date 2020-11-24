@@ -13,6 +13,7 @@
 * [Improvemets](#Improvements)
 
 ## <a name="Project">Project Direction</a>
+Create an MERN app to get familiar with full stack applications.
 
 ## <a name="Install">Installation</a>
 * To clone the repo
