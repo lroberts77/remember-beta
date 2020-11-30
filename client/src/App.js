@@ -11,6 +11,13 @@ const App = () => {
                 </Typography>
                 <img src={remember} alt="Remember-Beta"  />
             </AppBar>
+            <Grow in>
+                <Container>
+                    <Grid container justify="space-between" alignItems="stretch" spacing={3}>
+
+                    </Grid>
+                </Container>
+            </Grow>
         </Container>
     );
 };
