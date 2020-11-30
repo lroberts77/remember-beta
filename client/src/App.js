@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, AppBar, Typography, grow, Grid } from '@material-ui/core';
+import remember from "./images/remember.jpg";
 
 const App = () => {
     return (
@@ -8,7 +9,7 @@ const App = () => {
                 <Typography variant="h2" align="center">
                     Remeber-Beta
                 </Typography>
-
+                <img src={remember} alt="Remember-Beta"  />
             </AppBar>
         </Container>
     );
