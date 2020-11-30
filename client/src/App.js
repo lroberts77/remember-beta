@@ -3,9 +3,11 @@ import { Container, AppBar, Typography, grow, Grid } from '@material-ui/core';
 
 const App = () => {
     return (
-        <div>
-            <h1>App</h1>
-        </div>
+        <Container maxwidth="lg">
+            <AppBar position="static" color="inherit">
+                
+            </AppBar>
+        </Container>
     );
 };
 
