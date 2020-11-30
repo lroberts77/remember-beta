@@ -5,7 +5,10 @@ const App = () => {
     return (
         <Container maxwidth="lg">
             <AppBar position="static" color="inherit">
-                
+                <Typography variant="h2" align="center">
+                    Remeber-Beta
+                </Typography>
+
             </AppBar>
         </Container>
     );
