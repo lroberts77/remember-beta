@@ -3,8 +3,7 @@ import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
 
 import remember from "./images/remember.jpg";
 import Posts from "./components/Posts/Posts";
-
-
+import Form from "./components/Form/Form";
 
 const App = () => {
     return (
