@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/made%20with-React-green.svg?logo=react&colorA=000000&colorB=be33ff" alt="made with React">
 </div>
 
-### Technologies: React, enzyme, jest, JavaScript, HTML, CSS, Material ui, Mongoose, Express
+### Technologies: React, enzyme, JavaScript, HTML, CSS, Material ui, Mongoose, Express
 
 ## Index
 * [Project Direction](#Project)
@@ -20,6 +20,10 @@ Create an MERN app to get familiar with full stack applications.
 ```shell
 $ git clone git@github.com:lroberts77/remember-beta.git
 $ cd remember-beta
+$ cd server
+$ npm install
+$ cd ..
+$ cd client
 $ npm install
 ```
 
