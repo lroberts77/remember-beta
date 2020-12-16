@@ -36,4 +36,12 @@ export default makeStyles({
     grid: {
         display: "flex",
     },
+    details: {
+        display: "flex",
+        justifyContent: "space-between",
+        margin: "20px",
+    },
+    title: {
+        padding: "0 16px",
+    },
 })
