@@ -10,5 +10,16 @@ export default makeStyles({
     border: {
         border: "solid",
     },
+    fullHeightCard: {
+        height: "100%",
+    },
+    card: {
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        borderRadius: "15px",
+        height: "100%",
+        position: "relative",
+    },
     
 })
