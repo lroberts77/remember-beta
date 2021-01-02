@@ -27,8 +27,8 @@ const Form = () => {
                 variant={'outlined'} 
                 label="title"
                 fullWidth
-                value={postData.creator}
-                onChange={(e) => setPostData({ ...postData, creator: e.target.value })}
+                value={postData.title}
+                onChange={(e) => setPostData({ ...postData, title: e.target.value })}
                 />
                 <TextField name="message" 
                 variant={'outlined'} 
