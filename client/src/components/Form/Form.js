@@ -41,8 +41,8 @@ const Form = () => {
                 variant={'outlined'} 
                 label="tags"
                 fullWidth
-                value={postData.creator}
-                onChange={(e) => setPostData({ ...postData, creator: e.target.value })}
+                value={postData.tags}
+                onChange={(e) => setPostData({ ...postData, tags: e.target.value })}
                 />
             </form>
 
