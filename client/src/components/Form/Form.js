@@ -25,21 +25,21 @@ const Form = () => {
                 />
                 <TextField name="title" 
                 variant={'outlined'} 
-                label="Creator"
+                label="title"
                 fullWidth
                 value={postData.creator}
                 onChange={(e) => setPostData({ ...postData, creator: e.target.value })}
                 />
                 <TextField name="message" 
                 variant={'outlined'} 
-                label="Creator"
+                label="message"
                 fullWidth
                 value={postData.creator}
                 onChange={(e) => setPostData({ ...postData, creator: e.target.value })}
                 />
                 <TextField name="tags" 
                 variant={'outlined'} 
-                label="Creator"
+                label="tags"
                 fullWidth
                 value={postData.creator}
                 onChange={(e) => setPostData({ ...postData, creator: e.target.value })}
