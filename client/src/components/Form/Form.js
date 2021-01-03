@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import useStyles from './styles';
+import FileBase from 'react-file-base64';
 import { TextField, Button, Typography, Paper } from '@material-ui/core';
 
 const Form = () => {
@@ -44,8 +45,10 @@ const Form = () => {
                 value={postData.tags}
                 onChange={(e) => setPostData({ ...postData, tags: e.target.value })}
                 />
-            </form>
+                <div className={classes.fileInput}>
 
+                </div>
+            </form>
         </Paper>
     );
 }
