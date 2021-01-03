@@ -49,6 +49,7 @@ const Form = () => {
                     <FileBase type='file' muliple={false} onDone={({base64}) => setPostData({ ...postData, selectedFile: base64 })} />
                 </div>
                 <Button className={classes.buttonSubmit} variant="contained" color="primary" size="large" type="submit" fullwidth>Submit</Button>
+                <Button variant="contained" color="secondary" size="small" onClick={clear} fullwidth>Clear</Button>
             </form>
         </Paper>
     );
