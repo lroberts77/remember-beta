@@ -13,6 +13,10 @@ const Form = () => {
 
     }
 
+    const clear = () => {
+
+    }
+
     return (
         <Paper className={classes.paper}>
             <form autoComplete="off" noValidate className={classes.form} onSubmit={handleSubmit}>
@@ -48,8 +52,8 @@ const Form = () => {
                 <div className={classes.fileInput}>
                     <FileBase type='file' muliple={false} onDone={({base64}) => setPostData({ ...postData, selectedFile: base64 })} />
                 </div>
-                <Button className={classes.buttonSubmit} variant="contained" color="primary" size="large" type="submit" fullwidth>Submit</Button>
-                <Button variant="contained" color="secondary" size="small" onClick={clear} fullwidth>Clear</Button>
+                <Button className={classes.buttonSubmit} variant="contained" color="primary" size="large" type="submit" fullWidth>Submit</Button>
+                <Button variant="contained" color="secondary" size="small" onClick={clear} fullWidth>Clear</Button>
             </form>
         </Paper>
     );
