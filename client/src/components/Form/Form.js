@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import useStyles from './styles';
-import FileBase from 'react-file-base64';
 import { TextField, Button, Typography, Paper } from '@material-ui/core';
+import FileBase from 'react-file-base64';
+import { useDispatch } from 'react-redux';
 
 const Form = () => {
     const [postData, setPostData] = useState({
