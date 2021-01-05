@@ -10,7 +10,9 @@ import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 const Post = () => {
     const classes = useStyles();
     return (
-        <h1>POST</h1>
+        <Card className={classes.card}>
+            <CardMedia />
+        </Card>
     );
 }
 
