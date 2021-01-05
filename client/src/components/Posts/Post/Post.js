@@ -27,6 +27,9 @@ const Post = () => {
                 <CardContent>
                 <Typography className={classes.title} variant="h5" gutterBottom>{post.message}</Typography>   
                 </CardContent>
+                <CardActions className={classes.cardActions}>
+
+                </CardActions>
             </div>
         </Card>
     );
