@@ -11,7 +11,12 @@ const Post = () => {
     const classes = useStyles();
     return (
         <Card className={classes.card}>
-            <CardMedia />
+            <CardMedia className={classes.media} image={postMessage.selectedFile} title={postMessage.title} />
+            <div className={classes.overlay}>
+                <Typography variant="h6">{post.Typography.creator}</Typography>
+                <Typography variant="body2">{moment(post.createdAt).fromNow()}</Typography>
+
+            </div>
         </Card>
     );
 }
