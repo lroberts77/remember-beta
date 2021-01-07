@@ -20,7 +20,7 @@ const Post = ({ post, setCurrentId }) => {
             <div className={classes.overlay2}>
                 <Button style={{color: 'white'}} 
                 size="small" 
-                onClick={() => {}}>
+                onClick={() => setCurrentId(post._id)}>
                     <MoreHorizIcon fontSize="default" />
                 </Button>
             </div>
