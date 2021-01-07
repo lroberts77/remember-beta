@@ -13,10 +13,16 @@ const Form = ({ currentId, setCurrentId }) => {
     })
     const classes = useStyles();
     const dispatch = useDispatch();
+
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        dispatch(createPost(postData));
+        if(currentId) {
+            dispatch(updatePost(currentId, postData));
+        } else {
+            dispatch(createPost(postData));
+        }
+        
     }
 
     const clear = () => {
