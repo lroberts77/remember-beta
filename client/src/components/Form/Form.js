@@ -4,6 +4,7 @@ import { TextField, Button, Typography, Paper } from '@material-ui/core';
 import FileBase from 'react-file-base64';
 import { useDispatch } from 'react-redux';
 import { createPost, updatePost } from '../../actions/posts.js'
+import { useSelector } from 'react-redux';
 
 //Get the current id
 
@@ -11,6 +12,7 @@ const Form = ({ currentId, setCurrentId }) => {
     const [postData, setPostData] = useState({
         creator:"", title:"", message:"", tags:"", selectedFile:""
     })
+
     const classes = useStyles();
     const dispatch = useDispatch();
 
