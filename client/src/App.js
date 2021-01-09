@@ -8,7 +8,7 @@ import remember from "./images/remember1.jpg";
 import useStyles from './styles';
 
 const App = () => {
-    const [currentId, setcurrentId] = useState(null);
+    const [currentId, setCurrentId] = useState(null);
     const classes = useStyles();
     const dispatch = useDispatch();
 
@@ -31,7 +31,7 @@ const App = () => {
                             <Posts />
                         </Grid>
                         <Grid item xs={12} sm={4}>
-                            <Form currentId={currentId} setcurrentId={setcurrentId} />
+                            <Form currentId={currentId} setCurrentId={setCurrentId} />
                         </Grid>
                     </Grid>
                 </Container>
