@@ -1,5 +1,7 @@
 export default (posts = [], action) => {
     switch (action.type) {
+        case 'UPDATE':
+            return 
         case 'FETCH_ALL':
             return action.payload;
         case 'CREATE':
