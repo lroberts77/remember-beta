@@ -28,11 +28,11 @@ const Form = ({ currentId, setCurrentId }) => {
         } else {
             dispatch(createPost(postData));
         }
-        
     }
 
     const clear = () => {
-
+        setCurrentId(null);
+        setPostData({ creator:"", title:"", message:"", tags:"", selectedFile:"" })
     }
 
     return (
