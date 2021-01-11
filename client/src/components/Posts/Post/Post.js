@@ -7,7 +7,7 @@ import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import moment from 'moment';
 import { useDispatch } from 'react-redux';
 import { deletePost } from '../../../actions/posts';
-import posts from '../../../reducers/posts';
+// import posts from '../../../reducers/posts';
 
 
 const Post = ({ post, setCurrentId }) => {
@@ -42,7 +42,7 @@ const Post = ({ post, setCurrentId }) => {
                         like
                         {post.likeCount}
                     </Button>
-                    <Button size="small" color="primary" onClick={() => dispatch(deletePost(posts._id))}>
+                    <Button size="small" color="primary" onClick={() => dispatch(deletePost(post._id))}>
                         <DeleteIcon fontSize="small" />
                         Delete
                     </Button>
