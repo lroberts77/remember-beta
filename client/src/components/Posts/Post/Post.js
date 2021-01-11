@@ -5,12 +5,14 @@ import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 import DeleteIcon from '@material-ui/icons/Delete';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import moment from 'moment';
-import { useDispatch } from 'react-redux'
-
+import { useDispatch } from 'react-redux';
+import { deletePost } from '../../../actions/posts';
 
 
 const Post = ({ post, setCurrentId }) => {
+
     const classes = useStyles();
+
     return (
         <Card className={classes.card}>
             <CardMedia className={classes.media} image={post.selectedFile} title={post.title} />
