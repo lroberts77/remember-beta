@@ -20,6 +20,10 @@ export default makeStyles((theme) => ({
     mainContainer: {
       flexDirection: "column-reverse"
     },
+    image: {
+      marginLeft: '15px',
+      paddingRight: '5px'
+    },
     heading: {
     fontSize: '1.6rem'
     },
