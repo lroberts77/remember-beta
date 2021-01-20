@@ -42,7 +42,7 @@ const Post = ({ post, setCurrentId }) => {
                         &nbsp;
                         {post.likeCount}
                         &nbsp;
-                        {post.likeCount == 1 ? 'like' : 'likes'}
+                        {post.likeCount === 1 ? 'like' : 'likes'}
                     </Button>
                     <Button size="small" color="primary" onClick={() => dispatch(deletePost(post._id))}>
                         <DeleteIcon fontSize="small" />
