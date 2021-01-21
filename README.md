@@ -14,7 +14,9 @@
 * [Improvemets](#Improvements)
 
 ## <a name="Project">Project Direction</a>
-Create an MERN app to get familiar with full stack applications.
+I cereated this app to improve my understanding of full stack development using the MERN stack.
+
+I created this app to improve my understanding of TDD, code testing using React and experiment with CSS. Although I ran into quite a few problems I learned alot during the course of making this app including shallow and mounted testing, component separation, snapshot testing and CI/CD with Travis CI and Github-pages.
 
 ## <a name="Install">Installation</a>
 The deployed live app is [HERE](https://remember-beta.netlify.app/)
@@ -49,3 +51,4 @@ If a tab doesn't open with the remember-beta app running, open a new tab and typ
 ## <a name="Improvements">Improvements</a>
 * Experiment with styling
 * make app responsive to tablet sizes
+* Add log in and out feature
