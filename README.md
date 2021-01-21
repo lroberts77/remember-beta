@@ -45,3 +45,7 @@ $ npm start
 ```
 
 If a tab doesn't open with the remember-beta app running, open a new tab and type in http://localhost:3000 in the url bar and press enter.
+
+## <a name="Improvements">Improvements</a>
+* Experiment with styling
+* make app responsive to tablet sizes
