@@ -22,6 +22,8 @@ export default makeStyles({
         flexDirection: "column",
         justifyContent: "space-between",
         borderRadius: "15px",
+        borderShadow: "20px 20px 50px rgba(0, 0, 0, 0.5)",
+        backgroundColor: "255, 255, 255, 0.1",
         height: "100%",
         position: "relative",
     },
