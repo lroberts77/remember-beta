@@ -14,9 +14,7 @@
 * [Improvemets](#Improvements)
 
 ## <a name="Project">Project Direction</a>
-I cereated this app to improve my understanding of full stack development using the MERN stack.
-
-I created this app to improve my understanding of TDD, code testing using React and experiment with CSS. Although I ran into quite a few problems I learned alot during the course of making this app including shallow and mounted testing, component separation, snapshot testing and CI/CD with Travis CI and Github-pages.
+I cereated this app to improve my understanding of full stack development using the MERN stack. I learned alot during the course of making this app including using Material-ui, component separation, creating a schema and using mongdDB. This has inspired me to get a deeper understanding of the mern stack and to keep learning through trying new things.
 
 ## <a name="Install">Installation</a>
 The deployed live app is [HERE](https://remember-beta.netlify.app/)
