@@ -8,7 +8,9 @@ export default makeStyles((theme) => ({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: "rgba(255, 255, 255, 0.1)"
+    backgroundColor: "rgba(255, 255, 255, 0.1)",
+    boxShadow: "20px 20px 50px rgba(0, 0, 0, 0.5)",
+    backdropFilter: "blur(5px)",
   },
   heading: {
     color: 'rgba(0,183,255, 1)',
