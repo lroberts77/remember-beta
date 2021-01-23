@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
   appBar: {
-    borderRadius: 15,
+    borderRadius: '15px',
     margin: '30px 0',
     display: 'flex',
     flexDirection: 'row',
@@ -16,6 +16,9 @@ export default makeStyles((theme) => ({
   },
   heading: {
     color: 'rgba(0,183,255, 1)',
+    // background: "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,71,1) 45%, rgba(180,234,245,1) 100%)",
+    // WebkitBackgroundClip: "text",
+    // WebkitTextFillColor: "transparent",
   },
   image: {
     marginLeft: '15px',
