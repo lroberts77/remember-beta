@@ -15,7 +15,7 @@ export default makeStyles((theme) => ({
     borderLeft: "1px solid rgba(255, 255, 255, 0.5)",
   },
   heading: {
-    color: 'rgba(0,183,255, 1)',
+    color: '#f50057',
     // background: "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,71,1) 45%, rgba(180,234,245,1) 100%)",
     // WebkitBackgroundClip: "text",
     // WebkitTextFillColor: "transparent",
