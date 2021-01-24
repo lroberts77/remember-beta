@@ -1,8 +1,11 @@
 # Remember-beta
 ### [LIVE APP](https://remember-beta.netlify.app/)
-
 <div>
-<img src="https://img.shields.io/badge/made%20with-React-green.svg?logo=react&colorA=000000&colorB=be33ff" alt="made with React">
+<img src="client/src/images/beta.png" />
+</div>
+&nbsp
+<div>
+<img src="https://img.shields.io/badge/made%20with-React-green.svg?logo=react&colorA=000000&colorB=be33ff" alt="made with React" />
 </div>
 
 ### Technologies: MongoDB, Express, React, Node.js, JavaScript, HTML, CSS, Material-UI, Axios, npm
