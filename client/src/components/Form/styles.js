@@ -10,6 +10,7 @@ export default makeStyles((theme) => ({
     padding: theme.spacing(2),
     backgroundColor: "rgba(255, 255, 255, 0.2)",
     backdropFilter: "blur(5px)",
+    boxShadow: "20px 20px 50px rgba(0, 0, 0, 0.5)",
   },
   form: {
     display: 'flex',
