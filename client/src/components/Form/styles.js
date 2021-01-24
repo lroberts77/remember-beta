@@ -11,6 +11,8 @@ export default makeStyles((theme) => ({
     backgroundColor: "rgba(255, 255, 255, 0.2)",
     backdropFilter: "blur(5px)",
     boxShadow: "20px 20px 50px rgba(0, 0, 0, 0.5)",
+    borderTop: "1px solid rgba(255, 255, 255, 0.5)",
+    borderLeft: "1px solid rgba(255, 255, 255, 0.5)",
   },
   form: {
     display: 'flex',
