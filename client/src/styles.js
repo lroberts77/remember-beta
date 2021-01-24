@@ -15,10 +15,11 @@ export default makeStyles((theme) => ({
     borderLeft: "1px solid rgba(255, 255, 255, 0.5)",
   },
   heading: {
-    color: '#f50057',
-    // background: "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,71,1) 45%, rgba(180,234,245,1) 100%)",
-    // WebkitBackgroundClip: "text",
-    // WebkitTextFillColor: "transparent",
+    // color: '#f50057',
+    // background: "linear-gradient(90deg, #f50057 0%, rgba(180,234,245,1) 45%, #3f51b5 100%)",
+    background: "linear-gradient(90deg, #f50057 0%, #3f51b5 40%, #f50057 100%)",
+    WebkitBackgroundClip: "text",
+    WebkitTextFillColor: "transparent",
   },
   image: {
     marginLeft: '15px',
