@@ -21,6 +21,7 @@ I cereated this app to improve my understanding of full stack development using 
 
 ## <a name="Install">Installation</a>
 The deployed live app is [HERE](https://remember-beta.netlify.app/)
+The backend API deployed to heroku is [HERE](https://remember-beta.herokuapp.com/posts)
 
 * To clone the repo
 ```shell
