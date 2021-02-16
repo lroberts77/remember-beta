@@ -6,7 +6,10 @@
 &nbsp
 <div>
 <img src="https://img.shields.io/badge/made%20with-React-green.svg?logo=react&colorA=000000&colorB=be33ff" alt="made with React" />
+
+<img src="https://api.netlify.com/api/v1/badges/8200716c-c34f-4082-83a8-ce1ac948b627/deploy-status" />
 </div>
+
 
 ### Technologies: MongoDB, Express, React, Node.js, JavaScript, HTML, CSS, Material-UI, Axios, npm
 
