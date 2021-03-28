@@ -20,7 +20,7 @@
 * [Improvemets](#Improvements)
 
 ## <a name="Project">Project Direction</a>
-I created this app to improve my understanding of full stack development using the MERN stack. I learned alot during the course of making this app including using Material-ui for size repsonsive styling, component separation to keep file structure clean, creating a schema and using mongdDB. This has inspired me to get a deeper understanding of the mern stack and to keep learning through trying new projects and ideas.
+I created this app to improve my understanding of full stack development using the MERN stack. I learned alot during the course of making this app including using Material-ui for repsonsive styling, component separation to keep file structure clean, creating a schema and using mongdDB. This has inspired me to get a deeper understanding of the mern stack and to keep learning through trying new projects and ideas.
 
 ## <a name="Install">Installation</a>
 The deployed live app is [HERE](https://remember-beta.netlify.app/)
